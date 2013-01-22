@@ -10,6 +10,14 @@
 		EF6DBBB816AAEBD500F10DE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF6DBBB716AAEBD500F10DE6 /* Foundation.framework */; };
 		EF6DBBBB16AAEBD500F10DE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6DBBBA16AAEBD500F10DE6 /* main.m */; };
 		EF6DBBBF16AAEBD500F10DE6 /* AntAI.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = EF6DBBBE16AAEBD500F10DE6 /* AntAI.1 */; };
+		EF6DBBC916AAEC3100F10DE6 /* AbstractSystemInputReader.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6DBBC616AAEC3100F10DE6 /* AbstractSystemInputReader.m */; };
+		EF6DBBCA16AAEC3100F10DE6 /* NSString+AI.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6DBBC816AAEC3100F10DE6 /* NSString+AI.m */; };
+		EF98584316AC7ACE00157505 /* Aim.m in Sources */ = {isa = PBXBuildFile; fileRef = EF98584216AC7ACE00157505 /* Aim.m */; };
+		EF98584716AC824300157505 /* Order.m in Sources */ = {isa = PBXBuildFile; fileRef = EF98584616AC824300157505 /* Order.m */; };
+		EF9EA7E216ABB59C00F18A4F /* Tile.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9EA7E116ABB59C00F18A4F /* Tile.m */; };
+		EF9EA83F16ABBB0100F18A4F /* Ants.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9EA83E16ABBB0100F18A4F /* Ants.m */; };
+		EFBF2F9A16AEC87D00295F2C /* Bot.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBF2F9916AEC87D00295F2C /* Bot.m */; };
+		EFBF2F9E16AECB7800295F2C /* MyBot.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBF2F9D16AECB7800295F2C /* MyBot.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +39,22 @@
 		EF6DBBBA16AAEBD500F10DE6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EF6DBBBD16AAEBD500F10DE6 /* AntAI-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AntAI-Prefix.pch"; sourceTree = "<group>"; };
 		EF6DBBBE16AAEBD500F10DE6 /* AntAI.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = AntAI.1; sourceTree = "<group>"; };
+		EF6DBBC516AAEC3100F10DE6 /* AbstractSystemInputReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractSystemInputReader.h; sourceTree = "<group>"; };
+		EF6DBBC616AAEC3100F10DE6 /* AbstractSystemInputReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractSystemInputReader.m; sourceTree = "<group>"; };
+		EF6DBBC716AAEC3100F10DE6 /* NSString+AI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AI.h"; sourceTree = "<group>"; };
+		EF6DBBC816AAEC3100F10DE6 /* NSString+AI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AI.m"; sourceTree = "<group>"; };
+		EF98584116AC7ACE00157505 /* Aim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Aim.h; sourceTree = "<group>"; };
+		EF98584216AC7ACE00157505 /* Aim.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Aim.m; sourceTree = "<group>"; };
+		EF98584516AC824300157505 /* Order.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Order.h; sourceTree = "<group>"; };
+		EF98584616AC824300157505 /* Order.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Order.m; sourceTree = "<group>"; };
+		EF9EA7E016ABB59C00F18A4F /* Tile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tile.h; sourceTree = "<group>"; };
+		EF9EA7E116ABB59C00F18A4F /* Tile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tile.m; sourceTree = "<group>"; };
+		EF9EA83D16ABBB0100F18A4F /* Ants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ants.h; sourceTree = "<group>"; };
+		EF9EA83E16ABBB0100F18A4F /* Ants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ants.m; sourceTree = "<group>"; };
+		EFBF2F9816AEC87D00295F2C /* Bot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bot.h; sourceTree = "<group>"; };
+		EFBF2F9916AEC87D00295F2C /* Bot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bot.m; sourceTree = "<group>"; };
+		EFBF2F9C16AECB7800295F2C /* MyBot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyBot.h; sourceTree = "<group>"; };
+		EFBF2F9D16AECB7800295F2C /* MyBot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyBot.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,9 +97,25 @@
 		EF6DBBB916AAEBD500F10DE6 /* AntAI */ = {
 			isa = PBXGroup;
 			children = (
+				EF6DBBC516AAEC3100F10DE6 /* AbstractSystemInputReader.h */,
+				EF6DBBC616AAEC3100F10DE6 /* AbstractSystemInputReader.m */,
+				EF6DBBC716AAEC3100F10DE6 /* NSString+AI.h */,
+				EF6DBBC816AAEC3100F10DE6 /* NSString+AI.m */,
 				EF6DBBBA16AAEBD500F10DE6 /* main.m */,
 				EF6DBBBE16AAEBD500F10DE6 /* AntAI.1 */,
 				EF6DBBBC16AAEBD500F10DE6 /* Supporting Files */,
+				EF9EA7E016ABB59C00F18A4F /* Tile.h */,
+				EF9EA7E116ABB59C00F18A4F /* Tile.m */,
+				EF9EA83D16ABBB0100F18A4F /* Ants.h */,
+				EF9EA83E16ABBB0100F18A4F /* Ants.m */,
+				EF98584116AC7ACE00157505 /* Aim.h */,
+				EF98584216AC7ACE00157505 /* Aim.m */,
+				EF98584516AC824300157505 /* Order.h */,
+				EF98584616AC824300157505 /* Order.m */,
+				EFBF2F9816AEC87D00295F2C /* Bot.h */,
+				EFBF2F9916AEC87D00295F2C /* Bot.m */,
+				EFBF2F9C16AECB7800295F2C /* MyBot.h */,
+				EFBF2F9D16AECB7800295F2C /* MyBot.m */,
 			);
 			path = AntAI;
 			sourceTree = "<group>";
@@ -140,6 +180,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF6DBBBB16AAEBD500F10DE6 /* main.m in Sources */,
+				EF6DBBC916AAEC3100F10DE6 /* AbstractSystemInputReader.m in Sources */,
+				EF6DBBCA16AAEC3100F10DE6 /* NSString+AI.m in Sources */,
+				EF9EA7E216ABB59C00F18A4F /* Tile.m in Sources */,
+				EF9EA83F16ABBB0100F18A4F /* Ants.m in Sources */,
+				EF98584316AC7ACE00157505 /* Aim.m in Sources */,
+				EF98584716AC824300157505 /* Order.m in Sources */,
+				EFBF2F9A16AEC87D00295F2C /* Bot.m in Sources */,
+				EFBF2F9E16AECB7800295F2C /* MyBot.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +284,7 @@
 				EF6DBBC416AAEBD500F10DE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

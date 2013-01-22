@@ -4,4 +4,21 @@
 
 #ifdef __OBJC__
     #import <Foundation/Foundation.h>
+    #import "Globals.h"
+#endif
+
+#ifdef DEBUG1
+    #define Log(fmt, ...) NSLog((@"%s [Line %d] >>>" fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+    #define LogEnter(fmt, ...) NSLog((@"%s [Line %d] >>> Enter " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+    #define LogExitTime(methodStartTime) NSLog(@"%s [Line %d] EXIT ::: Time = %@", __PRETTY_FUNCTION__, __LINE__, [NSString stringWithFormat: @"%f", ([methodStartTime timeIntervalSinceNow]*-1000)]);
+    #define LogError(fmt, ...) NSLog((@"%s [Line %d] >>>ERROR!!!>>>" fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+    #define LogErrorObject(error) NSLog(@"%s [Line %d] >>>ERROR!!!>>> \nDomain: %@\nCode: #%d\nDescription: %@\nFailure reason: %@\nRecovery suggestion: %@\nUser info: %@", __PRETTY_FUNCTION__, __LINE__,[error domain],[error code],[error localizedDescription],[error localizedFailureReason],[error localizedRecoverySuggestion],[error userInfo]);
+    #define LogExit(fmt, ...) NSLog((@"%s [Line %d] >>> Exit " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+#else
+    #define LogEnter(fmt, ...)
+    #define Log(fmt, ...)
+    #define LogExit(fmt, ...)
+    #define LogExitTime(time)
+    #define LogError(fmt, ...)
+    #define LogErrorObject(error)
 #endif
