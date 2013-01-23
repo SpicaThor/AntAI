@@ -4,7 +4,6 @@
 
 #ifdef __OBJC__
     #import <Foundation/Foundation.h>
-    #import "Globals.h"
 #endif
 
 #ifdef DEBUG1

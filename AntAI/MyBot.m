@@ -19,6 +19,7 @@
     Log(@"self.ants = %@",self.ants);
     Log(@"ants.myAnts = %@",self.ants.myAnts);
     
+#ifdef DEBUG1
     Log(@"printing map");
     for(NSArray* row in self.ants.map){
         NSString* rowString = @"";
@@ -27,12 +28,12 @@
         }
         Log(@"%@",rowString);
     }
-    
+#endif
     
     
     for (Tile* myAnt in ants.myAnts) {
         Log(@"myAnt (row, col) = %@ (%d,%d)",myAnt,myAnt.row,myAnt.col);
-        for (Aim* direction in [Aim possibleAims]) {
+        for (Aim* direction in [Aim randomPossibleAims]) {
             Log(@"direction = %@",direction.symbol);
             Tile* tile = [ants getTileForTile:myAnt direction:direction];
             Log(@"target tile (row, col, ilk) = %@ (%d, %d, %d)",tile,tile.row,tile.col,tile.ilk);

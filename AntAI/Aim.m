@@ -85,4 +85,16 @@ static Aim* west = nil;
     return possibleAims.allValues;
 }
 
++(NSArray*)randomPossibleAims{
+    NSMutableArray* data = [NSMutableArray arrayWithArray:[self possibleAims]];
+    NSMutableArray* result = [NSMutableArray arrayWithCapacity:data.count];
+    while (data.count > 0) {
+        int index = arc4random_uniform((int)data.count - 1);
+        Aim* aim = [data objectAtIndex:index];
+        [result addObject:aim];
+        [data removeObject:aim];
+    }
+    return result;
+}
+
 @end

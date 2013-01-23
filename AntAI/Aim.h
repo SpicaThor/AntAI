@@ -17,6 +17,7 @@
 +(Aim*)getRandom;
 +(Aim*)fromString:(NSString*)symbol;
 +(NSArray*)possibleAims;
++(NSArray*)randomPossibleAims;
 
 +(Aim*)north;
 +(Aim*)east;
